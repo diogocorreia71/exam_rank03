@@ -60,3 +60,10 @@ int	ft_printf(const char *format, ...)
 	}	
 	return (va_end(pointer), len);
 }
+
+// int main(void)
+// {
+// 	ft_printf("%s\n", "toto");
+// 	ft_printf("Magic %s is %d\n", "number", 42);
+// 	ft_printf("Hexadecimal for %d is %x\n", 42, 42);
+// }
